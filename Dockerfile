@@ -1,7 +1,5 @@
 FROM ubuntu:18.04
-RUN mkdir -p home/Reseau
-COPY Pupscan home/Reseau
-#replace le copy par le clone de git
+
 
 RUN apt-get update && apt-get install -y \
 	sudo \
