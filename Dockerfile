@@ -15,6 +15,6 @@ RUN sudo apt-get install -y \
 	unzip 
 
 
-RUN pip3 install tensorflow 
+RUN pip3 install tensorflow==1.5
 RUN pip3 install Cython
 RUN pip3 install opencv-python
